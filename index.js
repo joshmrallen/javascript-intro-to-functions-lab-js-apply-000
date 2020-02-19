@@ -19,7 +19,7 @@ function logWhisper(string) {
 }
 
 function sayHiToGrandma(string) {
-  switch string:
+  switch (string):
     case string === string.toLowerCase()
   
   
