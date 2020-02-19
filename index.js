@@ -19,17 +19,9 @@ function logWhisper(string) {
 }
 
 function sayHiToGrandma(string) {
-  switch (string){
-    case string.isLowerCase():
-      console.log("I can't hear you!");
-      break;
-    case string.isUpperCase():
-      console.log("YES INDEED!");
-      break;
-    case string == "I love you, Grandma.":
-      console.log("I love you, too.");
-      break;
-    default: return "Who are you?";
+  var stringTest = string;
+  
+  if(string === )
   }
 
   
