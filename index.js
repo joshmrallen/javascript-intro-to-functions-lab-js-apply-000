@@ -20,13 +20,13 @@ function logWhisper(string) {
 
 function sayHiToGrandma(string) {
   switch (string){
-    case string === logWhisper(string):
+    case string == logWhisper(string):
       console.log("I can't hear you!");
       break;
-    case string === logShout(string):
+    case string == logShout(string):
       console.log("YES INDEED!");
       break;
-    case string === "I love you, Grandma.":
+    case string == "I love you, Grandma.":
       console.log("I love you, too.");
       break;
     default: return "Who are you?";
