@@ -26,7 +26,7 @@ function sayHiToGrandma(string) {
       return "YES INDEED!";
     case string === "I love you, Grandma.":
       return "I love you, too."
-    
+    default: return "Who are you?";
   }
 
   
