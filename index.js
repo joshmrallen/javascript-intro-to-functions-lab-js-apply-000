@@ -20,7 +20,7 @@ function logWhisper(string) {
 
 function sayHiToGrandma(string) {
   switch (string){
-    case string == logWhisper(string):
+    case string.isUpperCase:
       console.log("I can't hear you!");
       break;
     case string == logShout(string):
