@@ -20,10 +20,10 @@ function logWhisper(string) {
 
 function sayHiToGrandma(string) {
   switch (string){
-    case string.isLowerCase:
+    case string.isLowerCase():
       console.log("I can't hear you!");
       break;
-    case string.isUpperCase:
+    case string.isUpperCase():
       console.log("YES INDEED!");
       break;
     case string == "I love you, Grandma.":
